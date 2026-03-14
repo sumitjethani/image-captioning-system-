@@ -26,7 +26,7 @@ Try the live demo here: [Image-to-Caption Generator](https://huggingface.co/spac
 
 ## Overview
 
-This project implements a **Neural Storyteller** — an image captioning model that takes an image as input and generates a meaningful natural language caption. The pipeline combines:
+This project implements a **Neural Storyteller** - an image captioning model that takes an image as input and generates a meaningful natural language caption. The pipeline combines:
 
 - **ResNet50** (pretrained CNN) for extracting 2048-dimensional image feature vectors
 - **LSTM with Bahdanau Attention** for generating captions word by word
@@ -151,17 +151,6 @@ print("Generated caption:", caption)
 ```
 
 ---
-
-## Results
-
-### Evaluation Metrics
-
-| Metric | Score |
-|--------|-------|
-| BLEU-4 | ~0.18 |
-| Precision | ~0.45 |
-| Recall | ~0.38 |
-| F1-Score | ~0.41 |
 
 ### Inference Methods
 
